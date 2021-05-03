@@ -17,7 +17,7 @@ function hide () {
   document.getElementById('text').style.display = 'none'
 }
 function show () {
-  document.getElementById('text').style.display= 'inline'
+  document.getElementById('text').style.display = 'inline'
 }
 
 function background () {
