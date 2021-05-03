@@ -2,7 +2,7 @@ document.getElementById('change-image')
   .addEventListener('click', image)
 document.getElementById('change-text')
   .addEventListener('click', text)
-document.getElementById('hide').addEventListener('click',hide)
+document.getElementById('hide').addEventListener('click', hide)
 document.getElementById('show').addEventListener('click', show)
 document.getElementById('bg').addEventListener('click', background)
 
@@ -14,12 +14,12 @@ function text () {
 }
 
 function hide () {
-  document.getElementById('text').style.display ='none'
+  document.getElementById('text').style.display = 'none'
 }
 function show () {
-  document.getElementById('text').style.display='inline'
+  document.getElementById('text').style.display= 'inline'
 }
 
 function background () {
-  document.body.style.backgroundColor ='red'
+  document.body.style.backgroundColor = 'red'
 }
